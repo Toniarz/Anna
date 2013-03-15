@@ -1,0 +1,20 @@
+POLECENIA CMD:
+HELP Podaje informacje o poleceniach systemu Windows.
+CHDIR Wyœwietla lub zmienia nazwe bie¿¹cego katalogu
+MKDIR Tworzy katalog.
+DIR Wyœwietla liste plików i podkatalogów katalogu (konsola nie umo¿liwia tworzenia plików)
+TYPE Wyœwietla zawartoœa pliku tekstowego.
+CD:\-przejœcie do katalogu lab4
+CD\-przejœcie do katalogu nadrzêdnego
+REN Zmienia nazwe pliku lub plików.
+RENAME Zmienia nazwe pliku lub plików.
+POLECENIA GIT:
+podgl¹d wszystkich zatwierdzonych zmian- git log
+podgl¹d wprowadzonych w repozytprium zmian- git diff
+podgl¹d wprowadzonych zmian plików które s¹ ju¿ w przechowalni-git diff--staged
+podgl¹d zmian wprowadzonych w danym pliku-git status
+usuwanie plików z repozytorium-git rm
+dodawanie plików do przechowalni-git add
+usuwanie plików z przechowalni-git reset head
+przenoszenie plików znajduj¹cych siê w przechowalni do innej ga³êzi-git stash
+usuwanie ga³êzi- git branch-d
