@@ -18,3 +18,5 @@ dodawanie plików do przechowalni-git add
 usuwanie plików z przechowalni-git reset head
 przenoszenie plików znajduj¹cych siê w przechowalni do innej ga³êzi-git stash
 usuwanie ga³êzi- git branch-d
+
+KONIEC
