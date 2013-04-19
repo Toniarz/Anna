@@ -1,0 +1,44 @@
+Asocjacja-czyli powi¹zania pomiêdzy obiektami klas.Asocjacje mog¹ byæ wyposa¿one w oznaczenia 
+licznoœci.Asocjacje mog¹ byæ tak¿e wyposa¿one w dodatkowe nazwy ról
+(przy odpowiednich koñcach). Asocjacje mog¹ posiadaæ atrybuty. W tym celu przewidziano
+liniê przerywan¹ ³¹cz¹c¹ dan¹ asocjacj¹ z klas¹, okreœlan¹ jako:
+„klasa asocjacji”.
+Wewn¹trz klasy asocjacji mo¿na zdefiniowaæ atrybuty,
+operacje i inne cechy asocjacji. Klasa asocjacji mo¿e byæ uwa¿ana 
+za samodzieln¹ klasê - w szczególnoœci podlega zwi¹zkom 
+dziedziczenia i asocjacji. Asocjacje mog¹ byæ równie¿ n-arne
+(oznaczenie - pusty w œrodku romb).
+Firma-----------Osoba (w domyœle linia jest ci¹g³a)
+
+Agregacje-szczególny przypadek asocjacji wyra¿aj¹cy zale¿noœæ: czêœæ –ca³oœæ.
+Oznacza siê je za pomoc¹ pustego rombu.
+Samochód<>------------Silnik (w domyœle linia jest ci¹g³a)
+
+
+Kompozycja-dana czêœæ mo¿e nale¿eæ tylko do jednej ca³oœci
+Co wiêcej, czêœæ nie mo¿e istnieæ bez ca³oœci 
+– pojawia siê i jest usuwana wraz z ca³oœci¹.
+Zatem usuniêcie ca³oœci powoduje automatyczne usuniêcie 
+wszystkich czêœci zwi¹zanych z ni¹ zwi¹zkiem kompozycji.Kompozycje oznacza siê za pomoc¹ wype³nionego rombu.
+Zamówienie<>----------Pozycja zamówienia (w domyœle romb jest zaczerniony, a linia jest ci¹g³a)
+
+Generalizacja (dziedziczenie)-Obiekt pod-klasy automatycznie dziedziczy wszystkie atrybuty, 
+metody, asocjacje i agregacje z wszystkich jej nadklas.
+SPECJALIZACJA 
+– budowa pojêæ bardziej szczegó³owych, gdy mamy bardziej ogólne
+GENERALIZACJA
+– budowa pojêæ bardziej ogólnych, gdy mamy bardziej szczegó³owe
+Dziedziczenie wieloaspektowe
+Stosuje siê specjalne oznaczenia, gdy zakresy znaczeniowe klas 
+nie s¹ roz³¹czne. 
+overlapping – podzia³ nieroz³¹czny (przeciêcie zakresów 
+znaczeniowych nie jest zbiorem pustym)
+Dodatkowo mo¿na równie¿ odnotowaæ fakty, ¿e:
+• podklasy s¹ roz³¹czne (disjoint)
+• nie pokrywaj¹ ca³ego zakresu znaczeniowego ich nadklasy
+(incomplete)
+Dziedziczenie wielokrotne-gdy klasa wywodzi siê
+bezpoœrednio od wiêcej ni¿ 1 klasy.Wielokrotnie dziedziczenie prowadzi do anomalii i wad 
+koncepcji. W wiêkszoœci anomalie s¹ konsekwencj¹ faktu, 
+¿e przy pomocy wielodziedziczenia próbuje siê opanowaæ
+koncepcjê dynamicznych ról obiektu.
